@@ -1,5 +1,21 @@
 <h1>List of photos</h1>
 
+<dd>
+    <form action="/insert_photo" method="post">
+      
+      <label for="browser_image">Image</label>
+      <input id="browser_image" type="text" name="query_image" >
+
+      <label for="browser_caption">Caption</label>
+      <textarea id="browser_caption" name="query_caption"></textarea>
+      
+      <label for="owner_id">Owner ID</label>
+      <input id="owner_id" type="text" name="query_owner_id" >
+
+      <button>Add photo</button>
+    </form>
+  </dd>
+
 <table border ="1">
   <tr>
     <th>Image</th>
